@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:viewbinding:8.10.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\4192a9b94524740884a4e76e120e684a\transformed\viewbinding-8.10.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\kemal\.gradle\caches\8.11.1\transforms\259f149e30d6b4715a0ecfd42123d385\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\kemal\.gradle\caches\8.11.1\transforms\eb0a26a593f3a9914595d888465b5927\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
@@ -69,22 +69,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\kemal\.gradle\caches\8.11.1\tr
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kemal\.gradle\caches\8.11.1\transforms\df0f231951669b01cbb69e407938ed51\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\e709f8ef281f96a4fba55e5da7261306\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:7:5-26:19
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:7:5-26:19
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:7:5-26:19
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:7:5-26:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\0c54450945e37ffdc389fc8ea75cd49d\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\0c54450945e37ffdc389fc8ea75cd49d\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kemal\.gradle\caches\8.11.1\transforms\21ac3dd7d19b77cd02a6c24a31585d9e\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
@@ -104,49 +104,49 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kemal\.gradle\cach
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kemal\.gradle\caches\8.11.1\transforms\371b8e50ecede728408a7c5a90041d8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kemal\.gradle\caches\8.11.1\transforms\371b8e50ecede728408a7c5a90041d8e\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.16.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\8ac26c9f50635fb3723e3ae21bdd26dd\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:17:9-29
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:17:9-29
 	android:icon
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:15:9-60
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:15:9-60
 	android:dataExtractionRules
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:9:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:16:9-44
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:16:9-44
 activity#com.example.yemeksiparisuygulamasi.MainActivity
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:18:9-25:20
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:18:9-25:20
 	android:exported
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:21:13-24:29
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.10.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\4192a9b94524740884a4e76e120e684a\transformed\viewbinding-8.10.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.10.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\4192a9b94524740884a4e76e120e684a\transformed\viewbinding-8.10.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\kemal\.gradle\caches\8.11.1\transforms\259f149e30d6b4715a0ecfd42123d385\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
@@ -276,9 +276,9 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kemal\.
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\e709f8ef281f96a4fba55e5da7261306\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\e709f8ef281f96a4fba55e5da7261306\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\kemal\Projects\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kemal\Documents\GitHub\YemekSiparisUygulamasi\app\src\main\AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\0c4d139c3e29a25e299dd0fe7309ac3e\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\kemal\.gradle\caches\8.11.1\transforms\74a79157a43c776d6495346f431ff8af\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
