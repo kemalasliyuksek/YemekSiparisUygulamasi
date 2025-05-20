@@ -42,7 +42,6 @@ class SepetAdapter(private val onDeleteClick: (Int) -> Unit) :
             binding.textViewSepetYemekFiyat.text = "₺${sepetYemek.yemekFiyat}"
             binding.textViewSepetYemekAdet.text = "Adet: ${sepetYemek.yemekSiparisAdet}"
 
-            // Resmi yükle
             val resimUrl = "http://kasimadalan.pe.hu/yemekler/resimler/${sepetYemek.yemekResimAdi}"
             Glide.with(binding.root)
                 .load(resimUrl)

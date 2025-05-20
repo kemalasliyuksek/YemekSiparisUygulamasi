@@ -1,4 +1,3 @@
-// app/src/main/java/com/example/yemeksiparisuygulamasi/data/model/Yemek.kt
 package com.example.yemeksiparisuygulamasi.data.model
 
 import android.os.Parcelable

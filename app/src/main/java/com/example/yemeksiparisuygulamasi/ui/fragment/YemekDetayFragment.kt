@@ -44,13 +44,11 @@ class YemekDetayFragment : Fragment() {
         binding.textViewYemekAdi.text = yemek.ad
         binding.textViewYemekFiyat.text = "₺${yemek.fiyat}"
 
-        // Resmi yükle
         val resimUrl = "http://kasimadalan.pe.hu/yemekler/resimler/${yemek.resimAdi}"
         Glide.with(this)
             .load(resimUrl)
             .into(binding.imageViewYemek)
 
-        // NumberPicker ayarla
         binding.numberPicker.minValue = 1
         binding.numberPicker.maxValue = 10
         binding.numberPicker.value = 1
@@ -64,23 +62,19 @@ class YemekDetayFragment : Fragment() {
     private fun setupObservers() {
         viewModel.sepeteEklendiMi.observe(viewLifecycleOwner) { sepeteEklendi ->
             if (sepeteEklendi) {
-                // İlk olarak LiveData'yı sıfırla ki yeniden tetiklenmesin
                 viewModel.resetSepeteDurum()
 
-                // Sepete eklendi diyaloğu göster
                 val dialog = AlertDialog.Builder(requireContext())
                     .setTitle("Ürün Sepete Eklendi")
                     .setMessage("${args.yemek.ad} sepetinize eklendi. Ne yapmak istersiniz?")
                     .setPositiveButton("Sepete Git") { dialog, _ ->
                         dialog.dismiss()
-                        // Güvenli navigasyon için kontroller ekle
                         if (isAdded && !isDetached && !requireActivity().isFinishing) {
                             findNavController().navigate(R.id.action_yemekDetayFragment_to_sepetFragment)
                         }
                     }
                     .setNegativeButton("Alışverişe Devam Et") { dialog, _ ->
                         dialog.dismiss()
-                        // Güvenli navigasyon için kontroller ekle
                         if (isAdded && !isDetached && !requireActivity().isFinishing) {
                             findNavController().popBackStack()
                         }

@@ -22,20 +22,15 @@ class YemeklerRepository {
 
     suspend fun sepeteYemekEkle(yemek: Yemek, adet: Int): Boolean {
         try {
-            // Önce mevcut sepeti kontrol et
             val mevcutSepet = sepettekiYemekleriGetir()
 
-            // Aynı yemek zaten sepette var mı diye kontrol et
             val ayniYemek = mevcutSepet.find { it.yemekAdi == yemek.ad }
 
             if (ayniYemek != null) {
-                // Eğer aynı yemek varsa, önce onu sil
                 sepettenYemekSil(ayniYemek.sepetYemekId)
 
-                // Yeni adeti eski adetle birleştir
                 val yeniAdet = ayniYemek.yemekSiparisAdet + adet
 
-                // Güncellenmiş adet ile tekrar ekle
                 val response = service.sepeteYemekEkle(
                     yemekAdi = yemek.ad,
                     yemekResimAdi = yemek.resimAdi,
@@ -45,7 +40,6 @@ class YemeklerRepository {
                 )
                 return response.isSuccessful && response.body()?.success == 1
             } else {
-                // Yemek sepette yoksa normal ekleme işlemi yap
                 val response = service.sepeteYemekEkle(
                     yemekAdi = yemek.ad,
                     yemekResimAdi = yemek.resimAdi,
@@ -65,20 +59,17 @@ class YemeklerRepository {
             val response = service.sepettekiYemekleriGetir(KULLANICI_ADI)
             if (response.isSuccessful) {
                 val body = response.body()
-                // API boş sepet durumunda success=0 dönüyor olabilir, bu durumu kontrol et
                 if (body != null && body.success == 1) {
                     body.sepetYemekler ?: emptyList()
                 } else {
-                    // Success 0 ise veya yanıt beklenen formatta değilse boş liste döndür
                     emptyList()
                 }
             } else {
                 emptyList()
             }
         } catch (e: Exception) {
-            // JSON parse hatası veya başka bir istisna durumunda
             println("Sepet getirme hatası: ${e.message}")
-            emptyList() // Hata durumunda da boş liste döndür
+            emptyList()
         }
     }
 

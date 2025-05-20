@@ -41,7 +41,6 @@ class YemeklerAdapter(private val onItemClick: (Yemek) -> Unit) :
             binding.textViewYemekAdi.text = yemek.ad
             binding.textViewYemekFiyat.text = "₺${yemek.fiyat}"
 
-            // Resmi yükle
             val resimUrl = "http://kasimadalan.pe.hu/yemekler/resimler/${yemek.resimAdi}"
             Glide.with(binding.root)
                 .load(resimUrl)
